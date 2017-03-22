@@ -8,7 +8,7 @@ public class TestAfterUpdate {
 
 	@Test
 	public void test() {
-		HelloWorld a=new HelloWorld();
+		HelloWorld a = new HelloWorld();
 		String Result=a.getPrope();
 		System.out.println(Result);
 		assertEquals(Result, "Masote");
